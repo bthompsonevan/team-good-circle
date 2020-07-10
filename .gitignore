@@ -20,3 +20,35 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,vuejs,sass
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,vuejs,sass
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Vuejs ###
+# Recommended template: Node.gitignore
+
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,vuejs,sass
