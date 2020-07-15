@@ -6,12 +6,19 @@
       Florida. Please explore and see how you can help us to keep attending
       competitions.
     </div>
+    <div>
+      <img
+        class="home-logo-container"
+        src="@/assets/Team_Good_Circle_Log.png"
+        alt="Good Cirlce Logo"
+      />
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import NavBar from "@/components/NavBar.vue"
+import NavBar from "@/components/NavBar.vue";
 
 export default {
   name: "Home",
