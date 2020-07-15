@@ -1,9 +1,9 @@
 <template>
   <div class="nav-container">
     <b-nav tabs fill>
-      <b-nav-item>Home</b-nav-item>
-      <b-nav-item>Upcoming Events</b-nav-item>
-      <b-nav-item>How To Help</b-nav-item>
+      <b-nav-item class="nav-bar-link">Home</b-nav-item>
+      <b-nav-item class="nav-bar-link">Upcoming Events</b-nav-item>
+      <b-nav-item class="nav-bar-link">How To Help</b-nav-item>
     </b-nav>
   </div>
 </template>
