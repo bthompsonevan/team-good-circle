@@ -6,9 +6,9 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
-    <div>
+    <body class="home-page-container">
       <NavBar />
-      <body class="home-page-container">
+      <main>
         <div class="home-into-paragraph-container">
           Good Circle is the programming team from the University of Central
           Florida. Please explore and see how you can help us to keep attending
@@ -21,8 +21,11 @@
             alt="Good Cirlce Logo"
           />
         </div>
-      </body>
-    </div>
+      </main>
+      <footer class="home-footer-container">
+        This is the footer
+      </footer>
+    </body>
   </html>
 </template>
 
