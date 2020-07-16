@@ -1,6 +1,6 @@
 <template>
-  <div class="nav-container">
-    <b-nav nav nav-tabs fill>
+  <div>
+    <b-nav nav nav-tabs fill class="nav-bar-container">
       <b-nav-item class="nav-bar-link">Home</b-nav-item>
       <b-nav-item class="nav-bar-link">Upcoming Events</b-nav-item>
       <b-nav-item class="nav-bar-link">How To Help</b-nav-item>
