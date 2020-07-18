@@ -17,7 +17,7 @@
       <main>
         <div class="row">
           <div class="col">
-            <h1>Left</h1>
+            <h1>Right</h1>
             <h1>side</h1>
             <h1>screen</h1>
             <h1>content</h1>
