@@ -9,10 +9,11 @@
     <body class="home-page-container">
       <header class="header-container">
         <SiteHeader />
+      <div class="nav-container">
+        <NavBar />
+      </div>
       </header>
-      <nav class="nav-container">
-      <NavBar />
-      </nav>
+      
       <main>
         <div class="row">
           <div class="col"></div>
@@ -22,9 +23,9 @@
               Florida. Please explore and see how you can help us to keep
               attending competitions.
             </div>
-            <div>
+            <div class="home-logo-container">
               <img
-                class="home-logo-container"
+                class="home-logo"
                 src="@/assets/Team_Good_Circle_Log.png"
                 alt="Good Cirlce Logo"
               />
