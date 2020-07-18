@@ -9,13 +9,20 @@
     <body class="home-page-container">
       <header class="header-container">
         <SiteHeader />
-      <div class="nav-container">
-        <NavBar />
-      </div>
+        <div class="nav-container">
+          <NavBar />
+        </div>
       </header>
-      
+
       <main>
         <div class="row">
+          <div class="col">
+            <h1>Left</h1>
+            <h1>side</h1>
+            <h1>screen</h1>
+            <h1>content</h1>
+            <h1>Placeholder</h1>
+          </div>
           <div class="col"></div>
           <div class="col">
             <div class="home-into-paragraph-container">
@@ -77,10 +84,17 @@
             </article>
           </div>
           <div class="col"></div>
+          <div class="col">
+            <h1>Right</h1>
+            <h1>side</h1>
+            <h1>screen</h1>
+            <h1>content</h1>
+            <h1>Placeholder</h1>
+          </div>
         </div>
       </main>
       <footer class="home-footer-container">
-        This is the footer
+        <SiteFooter />
       </footer>
     </body>
   </html>
@@ -90,12 +104,14 @@
 // @ is an alias to /src
 import NavBar from "@/components/NavBar.vue";
 import SiteHeader from "@/components/SiteHeader.vue";
+import SiteFooter from "@/components/SiteFooter.vue";
 
 export default {
   name: "Home",
   components: {
     NavBar,
-    SiteHeader
+    SiteHeader,
+    SiteFooter
   }
 };
 </script>
