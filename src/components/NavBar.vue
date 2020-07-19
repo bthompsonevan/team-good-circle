@@ -6,7 +6,11 @@
           Home
         </router-link>
       </b-nav-item>
-      <b-nav-item class="nav-bar-link">Upcoming Events</b-nav-item>
+      <b-nav-item class="nav-bar-link">
+        <router-link to="upcomingevents">
+          Upcoming Events
+        </router-link>
+      </b-nav-item>
       <b-nav-item class="nav-bar-link">
         <router-link to="/howtohelp">
           How To Help
@@ -17,7 +21,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+};
 </script>
 
 <style></style>

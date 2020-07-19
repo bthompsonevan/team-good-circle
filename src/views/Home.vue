@@ -121,7 +121,7 @@ import SiteFooter from "@/components/SiteFooter.vue";
 export default {
   name: "Home",
   components: {
-    NavBar,
+     NavBar,
     SiteHeader,
     SiteFooter
   }
