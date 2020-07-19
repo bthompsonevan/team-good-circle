@@ -19,7 +19,7 @@
         </main>
 
         <footer>
-            <SiteFooter />
+           <SiteFooter />
         </footer>
 
     </body>
