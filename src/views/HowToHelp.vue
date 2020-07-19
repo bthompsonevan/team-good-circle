@@ -15,7 +15,7 @@
       </header>
 
       <main>
-          <b-container fluid>
+        <b-container fluid>
           <b-row>
             <b-col>
               <!-- Will insert graphic here for left
