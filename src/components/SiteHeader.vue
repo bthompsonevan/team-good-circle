@@ -1,6 +1,6 @@
 <template>
   <div class="header-component-container">
-    <h1>This is the Header</h1>
+    <h1 class="header-text">Team Good Circle</h1>
   </div>
 </template>
 
