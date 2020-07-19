@@ -6,8 +6,8 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
-    <body>
-      <header>
+    <body class="howtohelp-view-container">
+      <header class="howtohelp-header-container">
         <SiteHeader />
         <div class="nav-container">
           <NavBar />
@@ -59,7 +59,7 @@
         </b-container>
       </main>
 
-      <footer>
+      <footer class="howtohelp-footer-container">
         <SiteFooter />
       </footer>
     </body>
