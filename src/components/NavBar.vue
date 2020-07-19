@@ -1,19 +1,28 @@
 <template>
   <div>
     <b-nav nav nav-tabs fill class="nav-bar-container">
-      <b-nav-item class="nav-bar-link">
+      <b-nav-item
+        v-on:click="setActive('home')"
+        :class="{ active: isActive('home') }"
+      >
         <router-link to="/">
-          Home
+          {{ transformText("Home", "home") }}
         </router-link>
       </b-nav-item>
-      <b-nav-item class="nav-bar-link">
+      <b-nav-item
+        v-on:click="setActive('upcomingevents')"
+        :class="{ active: isActive('upcomingevents') }"
+      >
         <router-link to="upcomingevents">
-          Upcoming Events
+          {{ transformText("Upcoming Events", "upcomingevents") }}
         </router-link>
       </b-nav-item>
-      <b-nav-item class="nav-bar-link">
+      <b-nav-item
+        v-on:click="setActive('howtohelp')"
+        :class="{ active: isActive('howtohelp') }"
+      >
         <router-link to="/howtohelp">
-          How To Help
+          {{ transformText("How To Help", "howtohelp") }}
         </router-link>
       </b-nav-item>
     </b-nav>
@@ -21,7 +30,33 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      activeTab: "home",
+      transformedText: ""
+    };
+  },
+  methods: {
+    isActive: function(navigationItem) {
+      return this.activeTab === navigationItem;
+    },
+    setActive: function(navigationItem) {
+      return (this.activeTab = navigationItem);
+    },
+    transformText: function(displayedText, clickedTab) {
+      if (this.activeTab == clickedTab) {
+        let transformedText = displayedText.replace(
+          displayedText,
+          "> " + displayedText + " <"
+        );
+        return transformedText;
+      } else {
+        return displayedText;
+      }
+    }
+  }
+};
 </script>
 
 <style></style>
