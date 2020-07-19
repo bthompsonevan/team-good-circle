@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import HowToHelp from "../views/HowToHelp.vue";
+import UpcomingEvents from "../views/UpcomingEvents.vue";
 
 Vue.use(VueRouter);
 
@@ -19,7 +20,7 @@ const routes = [
   {
     path: "/upcomingevents",
     name: "UpcomingEvents",
-    component: HowToHelp
+    component: UpcomingEvents
   }
 ];
 
