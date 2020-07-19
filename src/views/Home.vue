@@ -8,6 +8,8 @@
     </head>
 
     <body class="home-page-container">
+       <!-- Will insert graphic here for top
+             to help emulate vintage computer screen-->
       <header class="header-container">
         <SiteHeader />
         <div class="nav-container">
@@ -18,7 +20,9 @@
       <main>
         <b-container fluid>
           <b-row>
-            <b-col>
+            <b-col>  
+              <!-- Will insert graphic here for left
+                   side. to help emulate vintage computer screen -->
               <h1>Right</h1>
               <h1>side</h1>
               <h1>screen</h1>
@@ -87,6 +91,9 @@
             </b-col>
             <b-col></b-col>
             <b-col>
+              <!-- Will insert graphic here for right
+                   side. to help emulate vintage computer screen 
+                   this graphic will have a few knobs and a logo-->
               <h1>Right</h1>
               <h1>side</h1>
               <h1>screen</h1>
@@ -97,6 +104,8 @@
         </b-container>
       </main>
       <footer class="home-footer-container">
+        <!-- Will insert graphic here for bottom
+             to help emulate vintage computer screen-->
         <SiteFooter />
       </footer>
     </body>
