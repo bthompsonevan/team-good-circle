@@ -15,6 +15,11 @@ const routes = [
     path: "/howtohelp",
     name: "HowToHelp",
     component: HowToHelp
+  },
+  {
+    path: "/upcomingevents",
+    name: "UpcomingEvents",
+    component: HowToHelp
   }
 ];
 
