@@ -23,7 +23,7 @@
             <b-col>  
               <!-- Will insert graphic here for left
                    side. to help emulate vintage computer screen -->
-              <h1>Right</h1>
+              <h1>Left</h1>
               <h1>side</h1>
               <h1>screen</h1>
               <h1>content</h1>
