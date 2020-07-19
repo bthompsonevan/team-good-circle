@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-nav nav nav-tabs fill class="nav-bar-container">
-      <b-nav-item
+      <b-nav-item 
         v-on:click="setActive('home')"
         :class="{ active: isActive('home') }"
       >
@@ -9,7 +9,7 @@
           {{ transformText("Home", "home") }}
         </router-link>
       </b-nav-item>
-      <b-nav-item
+      <b-nav-item 
         v-on:click="setActive('upcomingevents')"
         :class="{ active: isActive('upcomingevents') }"
       >
@@ -17,7 +17,7 @@
           {{ transformText("Upcoming Events", "upcomingevents") }}
         </router-link>
       </b-nav-item>
-      <b-nav-item
+      <b-nav-item 
         v-on:click="setActive('howtohelp')"
         :class="{ active: isActive('howtohelp') }"
       >
