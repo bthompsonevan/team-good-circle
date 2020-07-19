@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body class="upcomingevents-container">
-      <header>
+      <header class="upcomingevents-header-container">
         <SiteHeader />
         <div class="nav-container">
           <NavBar />
@@ -59,7 +59,7 @@
         </b-container>
       </main>
 
-      <footer>
+      <footer class="upcoming-footer-container">
         <SiteFooter />
       </footer>
     </body>
