@@ -8,7 +8,7 @@
     </head>
 
     <body class="home-page-container">
-       <!-- Will insert graphic here for top
+      <!-- Will insert graphic here for top
              to help emulate vintage computer screen-->
       <header class="header-container">
         <SiteHeader />
@@ -20,7 +20,7 @@
       <main>
         <b-container fluid>
           <b-row>
-            <b-col>  
+            <b-col>
               <!-- Will insert graphic here for left
                    side. to help emulate vintage computer screen -->
               <h1>Left</h1>
