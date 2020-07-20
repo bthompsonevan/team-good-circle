@@ -33,8 +33,7 @@
 export default {
   data() {
     return {
-      activeTab: "home",
-      transformedText: ""
+      activeTab: "home"
     };
   },
   methods: {
@@ -48,7 +47,7 @@ export default {
       if (this.activeTab == clickedTab) {
         let transformedText = displayedText.replace(
           displayedText,
-          "> " + displayedText + " <"
+          ">> " + displayedText + " <<"
         );
         return transformedText;
       } else {
@@ -59,4 +58,4 @@ export default {
 };
 </script>
 
-<style></style>
+

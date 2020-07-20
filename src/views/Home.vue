@@ -20,16 +20,16 @@
       <main>
         <b-container fluid>
           <b-row>
-            <b-col>
+            <b-col> 
+            </b-col>
+            <b-col> 
               <!-- Will insert graphic here for left
                    side. to help emulate vintage computer screen -->
               <h1>Left</h1>
               <h1>side</h1>
               <h1>screen</h1>
               <h1>content</h1>
-              <h1>Placeholder</h1>
-            </b-col>
-            <b-col></b-col>
+              <h1>Placeholder</h1></b-col>
             <b-col>
               <div class="home-into-paragraph-container">
                 Good Circle is the programming team from the University of
