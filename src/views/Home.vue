@@ -21,8 +21,6 @@
         <b-container fluid>
           <b-row>
             <b-col> 
-            </b-col>
-            <b-col> 
               <!-- Will insert graphic here for left
                    side. to help emulate vintage computer screen -->
               <h1>Left</h1>
@@ -89,7 +87,6 @@
                 </p>
               </article>
             </b-col>
-            <b-col></b-col>
             <b-col>
               <!-- Will insert graphic here for right
                    side. to help emulate vintage computer screen 
