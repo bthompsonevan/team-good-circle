@@ -1,4 +1,5 @@
 # team-good-circle
+A fun project to work on learning foundational flows in Vue.js and SASS
 
 ## Project setup
 ```
