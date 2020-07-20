@@ -8,8 +8,7 @@
     </head>
 
     <body class="home-page-container">
-      <!-- Will insert graphic here for top
-             to help emulate vintage computer screen-->
+      <div class="secondary-border">
       <header class="header-container">
         <SiteHeader />
         <div class="nav-container">
@@ -20,9 +19,7 @@
       <main>
         <b-container fluid>
           <b-row>
-            <b-col> 
-              <!-- Will insert graphic here for left
-                   side. to help emulate vintage computer screen -->
+            <b-col class="side-content"> 
               <h1>Left</h1>
               <h1>side</h1>
               <h1>screen</h1>
@@ -34,12 +31,14 @@
                 Central Florida. Please explore and see how you can help us to
                 keep attending competitions.
               </div>
+              <br/>
               <div class="home-logo-container">
                 <img
                   class="home-logo"
                   src="@/assets/Team_Good_Circle_Log.png"
                   alt="Good Cirlce Logo"
                 />
+                <br/>
               </div>
               <article>
                 <h2>Article heading</h2>
@@ -87,10 +86,7 @@
                 </p>
               </article>
             </b-col>
-            <b-col>
-              <!-- Will insert graphic here for right
-                   side. to help emulate vintage computer screen 
-                   this graphic will have a few knobs and a logo-->
+            <b-col class="side-content">
               <h1>Right</h1>
               <h1>side</h1>
               <h1>screen</h1>
@@ -105,7 +101,8 @@
              to help emulate vintage computer screen-->
         <SiteFooter />
       </footer>
-    </body>
+      </div>
+    </body>    
   </html>
 </template>
 
