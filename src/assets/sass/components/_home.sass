@@ -4,15 +4,13 @@ html, body
     background: $PrimaryBlack
     color: $PrimaryGreen
 
-.home-page-container    
-    border-radius: 15px  
-    border: solid 55px $PrimaryWhite 
-    
-     
+// .home-page-container    
+//     border-radius: 15px  
+//     border: solid 50px $PrimaryWhite     
 
-.secondary-border 
-    border: solid 25px $SecondaryBorder  
-    border-radius: 15px
+// .secondary-border 
+//     border: solid 25px $SecondaryBorder  
+//     border-radius: 1px
 
 .home-into-paragraph-container
     text-align: center
@@ -38,4 +36,28 @@ html, body
     position: -webkit-sticky 
     position: sticky
     bottom: 0px
+
+#top, #bottom, #left, #right 
+    background: $PrimaryWhite
+    position: fixed
+
+#left, #right 
+    top: 0 
+    bottom: 0
+    width: 15px
+		
+    #left
+        left: 0
+        #right 
+            right: 0
+		
+    #top, #bottom 
+        left: 0 
+        right: 0
+        height: 15px
+		
+        #top 
+            top: 0 
+        #bottom 
+            bottom: 0
 

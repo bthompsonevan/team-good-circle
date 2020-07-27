@@ -8,6 +8,10 @@
     </head>
 
     <body class="home-page-container">
+      <div id="b-top"></div>
+      <div id="b-left"></div>
+      <div id="b-right"></div>
+      <div id="b-bottom"></div>
       <div class="secondary-border">
         <header class="header-container">
           <SiteHeader />
